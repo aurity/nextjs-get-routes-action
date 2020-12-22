@@ -1,0 +1,17 @@
+{
+  "name": "@aurity/nextjs-get-routes-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tkulpa <tekulp@gmail.com>",
+  "license": "MIT",
+  "scripts": { 
+    "build": "ncc build index.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.26.1"
+  }
+}

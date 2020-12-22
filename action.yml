@@ -1,0 +1,13 @@
+name: 'Get next.js routes'
+description: 'Get list of next.js routes from /pages directory'
+inputs:
+  base-url: 
+    description: 'Base URL you want to append routes to, usefull for passing already complete links'
+outputs:
+  routes:
+    description: 'Array of next.js routes'
+  links:
+    description: 'String of next.js links, only when you passed base-url'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
